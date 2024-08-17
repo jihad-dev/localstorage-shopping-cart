@@ -1,16 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import Products from './components/Products/Products';
 
-import './App.css'
-import Products from './components/Products/Products'
-
-function App() {
-
-
+const App = () => {
   return (
-      <div className='lg:px-11 px-11'>
-    <Products></Products>
-      </div>
-  )
-}
+    <div className='lg:px-11 px-11'>
+      <Navbar/>
+      <Products/>
+    </div>
+  );
+};
 
-export default App
+export default App;
